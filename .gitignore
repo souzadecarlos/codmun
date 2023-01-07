@@ -1,0 +1,19 @@
+data-raw/dados_empilhados.rds
+data-raw/dados.rds
+data-raw/empilhar_dados.r
+data-raw/extrair_fazenda.r
+data-raw/extrair_ibge.r
+data-raw/extrair_receita.r
+data-raw/extrair_siafi.r
+data-raw/extrair_tse.r
+data-raw/meus_dados.R
+data-raw/limpos/ibge_limpo.rds
+data-raw/limpos/sef_limpo.rds
+data-raw/limpos/siafi_limpo.rds
+data-raw/limpos/tse_limpo.rds
+data-raw/raw/ASPB008 (2).xls
+data-raw/raw/Historico_Totalizacao_Presidente_BR_1T_2022.csv
+data-raw/raw/ibge_municipios_raw.xls
+data-raw/raw/Municípios.txt
+data-raw/raw/siafi_raw.pdf
+data-raw/raw/votacao_secao_2022_BR.csv
