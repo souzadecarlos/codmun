@@ -4,7 +4,7 @@
 
 <!-- badges: start -->
 <!-- badges: end -->
-The goal of codmun is to ...
+
 ## Overview
 
 Ao trabalhar com dados de municípios, é comum se deparar com códigos distintos em cada base oficial utilizada. O pacote codmun tem o objetivo de facilicar a conversão de códigos de uma base para a outra.
@@ -28,13 +28,15 @@ library(codmun)
 ```
 
 ``` r
-converter(valor = 3526902, origem = "ibge_completo", "cod_tse")
+bases()
 ```
 
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this. You could also use GitHub Actions to re-render `README.Rmd` every time you push. An example workflow can be found here: <https://github.com/r-lib/actions/tree/v1/examples>.
+``` r
+municipio(valor = 3526902, origem = "ibge_completo")
+```
 
-You can also embed plots, for example:
+``` r
+converter(valor = 3526902, origem = "ibge_completo", "tse")
+```
 
-<img src="man/figures/README-pressure-1.png" width="100%" />
 
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub and CRAN.
