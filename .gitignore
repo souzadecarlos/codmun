@@ -17,3 +17,5 @@ data-raw/raw/ibge_municipios_raw.xls
 data-raw/raw/Municípios.txt
 data-raw/raw/siafi_raw.pdf
 data-raw/raw/votacao_secao_2022_BR.csv
+inst/doc
+docs

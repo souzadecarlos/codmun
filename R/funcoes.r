@@ -53,7 +53,8 @@ bases  <- function() {
 
 #' Dados empilhados
 #'
-#' Base de dados referentes a municipios brasileiros e seus respectivos codigos de identificacao em diferentes bases
+#' Base de dados referentes a municipios brasileiros e seus 
+#' respectivos codigos de identificacao em diferentes bases
 #'
 #' @format Uma lista que descreve as colunas:
 #' \describe{

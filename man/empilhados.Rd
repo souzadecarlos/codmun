@@ -24,6 +24,7 @@ Dados retirados de fontes oficiais e compilados em uma unica base.
 empilhados
 }
 \description{
-Base de dados referentes a municipios brasileiros e seus respectivos codigos de identificacao em diferentes bases
+Base de dados referentes a municipios brasileiros e seus
+respectivos codigos de identificacao em diferentes bases
 }
 \keyword{datasets}
