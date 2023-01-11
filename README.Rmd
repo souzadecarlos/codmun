@@ -18,10 +18,13 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
+## Overview
+
+Ao trabalhar com dados de municípios, é comum se deparar com códigos distintos em cada base oficial utilizada. O pacote codmun tem o objetivo de facilicar a conversão de códigos de uma base para a outra.
 
 ## Installation
 
-You can install the development version of codmun from [GitHub](https://github.com/) with:
+Você pode instalar a versão de desenvolvedor de codmun a partir do [GitHub](https://github.com/) com:
 
 ``` r
 # install.packages("devtools")
@@ -46,15 +49,5 @@ municipio(valor = 3526902, base = "ibge_completo")
 ```
 
 ```{r converter()}
-converter(valor = 3526902, origem = "ibge_completo", "tse")
+converter(valor = 3526902, origem = "ibge_completo", destino = "tse")
 ```
-
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this. You could also use GitHub Actions to re-render `README.Rmd` every time you push. An example workflow can be found here: <https://github.com/r-lib/actions/tree/v1/examples>.
-
-You can also embed plots, for example:
-
-```{r pressure, echo = FALSE}
-plot(pressure)
-```
-
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub and CRAN.

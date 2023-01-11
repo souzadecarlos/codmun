@@ -4,9 +4,13 @@
 
 <!-- badges: start -->
 <!-- badges: end -->
+## Overview
+
+Ao trabalhar com dados de municípios, é comum se deparar com códigos distintos em cada base oficial utilizada. O pacote codmun tem o objetivo de facilicar a conversão de códigos de uma base para a outra.
+
 ## Installation
 
-You can install the development version of codmun from [GitHub](https://github.com/) with:
+Você pode instalar a versão de desenvolvedor de codmun a partir do [GitHub](https://github.com/) com:
 
 ``` r
 # install.packages("devtools")
@@ -34,6 +38,6 @@ municipio(valor = 3526902, base = "ibge_completo")
 ```
 
 ``` r
-converter(valor = 3526902, origem = "ibge_completo", "tse")
+converter(valor = 3526902, origem = "ibge_completo", destino = "tse")
 #> [1] 66397
 ```
